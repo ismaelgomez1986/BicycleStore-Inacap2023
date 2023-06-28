@@ -1,4 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #header-principal{
     width: 50%;
     margin: 0 auto;
+}
+
+.navbar {
+    background-color: beige;
+}
+
+.bici-logo {
+    width: 40px;
+    height: auto;
+
+}
+
+.carrito {
+    width: 40px;
+    height: auto;
+    margin-left: 40vw;
+}
+
+.nav-item {
+    margin-top: 5px;
+}
+
+article {
+    transition: 1s;
+}
+
+article:hover {
+    transition: 0.5s;
+    scale: 1.05;
+}
+
+section {
+    background-color: bisque;
+}
+
+footer {
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    color: aliceblue;
 }
